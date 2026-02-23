@@ -2,7 +2,7 @@ name: Daily Automated Commit
 
 on:
   schedule:
-    - cron: '30 4 * * *'  # Runs at 4:30 AM UTC (10:00 AM IST) daily
+    - cron: '5 4 * * *'  # Runs at 4:05 AM UTC (9:35 AM IST) daily
   workflow_dispatch:  # Allows manual testing
 
 jobs:
